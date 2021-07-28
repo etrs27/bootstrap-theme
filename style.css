@@ -1,0 +1,52 @@
+.btn-primary {
+    background-color: #313461;
+    border: #313461;
+}
+
+.btn-light {
+    background-color: #e7e7ec;
+    border: #e7e7ec;
+}
+
+.jumbotron {
+    background: #333 url('images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    border-bottom: 5px #f4f4f4 solid;
+}
+
+.jumbotron-main {
+    padding: 0 60px 40px 60px;
+}
+
+.jumbotron-main h1 {
+    margin: 60px 0 30px 0;
+}
+
+.jumbotron p.lead {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.jumbotron-sub {
+
+}
+
+.navbar {
+    margin: 0;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.navbar a:hover {
+    background: none !important;
+    border-bottom: #fff 3px solid;
+    margin-bottom: 0;
+}
