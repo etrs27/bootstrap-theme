@@ -11,8 +11,7 @@
 <body>
 
   <!-- The jumbotron and navbar. Contains the list of link pages. It collapses when the width of the page is shrinked.
-    Part of the jumbotron. Contains the main title and the main background photo.
-    Added a place for a brief description. -->
+    Part of the jumbotron. Contains the title of page and the main background photo. -->
 
     <div class="jumbotron jumbotron-main">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
@@ -24,10 +23,10 @@
               <div class="collapse navbar-collapse flex-row-reverse" id="navbarCollapse">
                 <ul class="navbar-nav md-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="services.html">Services</a>
@@ -53,23 +52,25 @@
            <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">About Us</h3>
+                        <h2 class="card-title">About Us</h2>
                     </div>
                     <div class="card-body">
                         <img src="images/about-us.jpg" alt="A table with a computer, phone and notepads." class="img-full">
                     </div>
                     <br>
-                    <p class="card-text">Fusce pharetra suscipit odio non fermentum. Nulla nec condimentum magna. Vivamus varius quis lacus eu cursus. Maecenas aliquam elit et augue ornare dictum. Nam placerat neque nisi.</p>
-                    <p class="card-text">Nullam at tellus tortor. Aenean et vulputate ex. Aliquam vel elit ipsum. Vestibulum a dolor tortor. Aliquam orci magna, pharetra vel eleifend vitae, maximus consectetur augue. Suspendisse elementum semper erat, sit amet tristique tortor suscipit eget. Nulla in tincidunt velit. Sed vestibulum mauris vel nunc tristique, id porta massa auctor.</p>
+                    <p class="card-text about-paragraph">Fusce pharetra suscipit odio non fermentum. Nulla nec condimentum magna. Vivamus varius quis lacus eu cursus. Maecenas aliquam elit et augue ornare dictum. Nam placerat neque nisi.</p>
+                    <p class="card-text about-paragraph">Nullam at tellus tortor. Aenean et vulputate ex. Aliquam vel elit ipsum. Vestibulum a dolor tortor. Aliquam orci magna, pharetra vel eleifend vitae, maximus consectetur augue. Suspendisse elementum semper erat, sit amet tristique tortor suscipit eget. Nulla in tincidunt velit. Sed vestibulum mauris vel nunc tristique, id porta massa auctor.</p>
                 </div>
            </div>
 
-    <!-- A sidebar with some additional information. -->
+            <!-- A sidebar with some additional information. -->
     
            <aside class="col-md-4">
-               <div class="card card bg-light">
-                   <h3 class="card-title">Who We Are</h3>
-                   <p class="card-body">Sed sit amet metus pharetra, pharetra ipsum quis, iaculis erat. Aenean eget nibh dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ut felis eget purus rhoncus imperdiet in non elit. Donec vel dolor viverra dui ornare aliquet vel non enim.</p>
+               <div class="card text-center bg-light">
+                <div class="card-header">
+                  <h3 class="card-title">Who We Are</h3>
+                </div>
+                   <p class="card-text about-aside-paragraph">Sed sit amet metus pharetra, pharetra ipsum quis, iaculis erat. Aenean eget nibh dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque ut felis eget purus rhoncus imperdiet in non elit. Donec vel dolor viverra dui ornare aliquet vel non enim.</p>
                </div>
             </aside>
        </div>

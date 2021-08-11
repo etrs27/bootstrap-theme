@@ -47,13 +47,10 @@
     margin-bottom: 60px;
 }
 
-/* .jumbotron-sub {
-    padding: 0 60px 40px 60px;
-} */
-
 .navbar {
     margin: 0;
     color: #fff;
+    border-radius: 0 0 20px 20px;
 }
 
 .navbar a {
@@ -67,16 +64,49 @@
     margin-bottom: 0;
 }
 
-.card {
-    text-align: center;
+.container {
+    margin: 30px 0 30px 0;
 }
 
-.card-spacing {
-    border-bottom: 5px #f4f4f4 solid;
+.index-cards {
+    position: relative;
+    min-height: 270px;
+}
+
+.index-cards-content {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.index-row {
+    margin: 20px 0 20px 0;
+}
+
+.index-title {
+    padding: 5%;
+}
+
+.about-aside-paragraph {
+    padding: 5%;
+}
+
+.about-paragraph {
+    padding: 0 8px 8px 8px;
+    text-align: left;
+}
+
+.services-paragraph {
+    padding: 10px;
+    text-align: left;
 }
 
 .icon-image {
     margin: 20px;
+}
+
+.img-full {
+    width: 100%;
 }
 
 .section-a {
@@ -84,7 +114,7 @@
     color: #fff;
     text-align: center;
     padding: 50px;
-    margin-bottom: 10px;
+    margin: 30px 0 30px 0;
 }
 
 .section-a h2 {
@@ -92,15 +122,15 @@
 }
 
 .section-b {
-    margin-bottom: 10px;
+    margin: 30px 0 30px 0;
 }
 
 .section-b h2, p {
     text-align: center;
 }
 
-.img-full {
-    width: 100%;
+.listed-item {
+    margin-top: 25px;
 }
 
 .main-footer {
